@@ -4,11 +4,12 @@
   "description": "URL Shortener",
   "main": "src/server.js",
   "scripts": {
-    "start": "npx nodemon src/server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gisioraelvis/url-shortener.git"
+    "url": "git+https://github.com/gisioraelvis/url-shortener.git"
   },
   "keywords": [
     "url shortener",
@@ -22,7 +23,7 @@
   },
   "homepage": "https://github.com/gisioraelvis/url-shortener#readme",
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.19.4"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
